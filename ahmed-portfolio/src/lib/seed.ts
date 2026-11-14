@@ -1,0 +1,20 @@
+import type { SiteData } from "@/types";
+export const seedData: SiteData = {
+ profile:{name:"Ahmed Mohamed",title:"Senior Software Engineer & Founder of Lunaro Digital Solutions",location:"Ismailia, Egypt · Working Worldwide",email:"ahmedmohamedstoer1234@gmail.com",phone:"+20 104 196 1879",heroTitle:"Senior Software Engineer",heroLead:"Architecting & scaling",rotatingWords:["E-Commerce Stores","SaaS Platforms","Dashboards","Web Apps","APIs"],bio:"I design and engineer digital products from system architecture to polished, high-performing production experiences.",cvUrl:"#",password:"admin123"},
+ projects:[
+ {id:"town-team",title:"Town Team",subtitle:"Full-Stack Menswear E-Commerce Store",description:"Solved flash-sale traffic bottlenecks, real-time branch SKU sync, and bilingual AR/EN RTL/LTR layout shifts.",stack:["Next.js","TypeScript","Commerce","Cloud"],liveUrl:"#",githubUrl:"#",imageUrl:"",date:"2026"},
+ {id:"activ",title:"ACTIV",subtitle:"Full-Stack Sportswear E-Commerce Platform",description:"High-volume SKU caching, dynamic variant selectors, and a mobile-first checkout experience.",stack:["React","Next.js","TypeScript","API"],liveUrl:"#",githubUrl:"#",imageUrl:"",date:"2026"},
+ {id:"remas-land",title:"Remas Land",subtitle:"Corporate & Dairy E-Commerce Platform",description:"Unified a 55+ branch corporate profile with perishable goods live stock synchronization.",stack:["Next.js","Node.js","Database","SEO"],liveUrl:"#",githubUrl:"#",imageUrl:"",date:"2026"},
+ {id:"obour-land",title:"Obour Land",subtitle:"Enterprise Corporate & Investor Relations Portal",description:"Heavy financial report indexing, multi-audience UX, and technical SEO architecture.",stack:["React","TypeScript","SEO","CMS"],liveUrl:"#",githubUrl:"#",imageUrl:"",date:"2026"}],
+ services:[
+ {id:"commerce",title:"High-Scale E-Commerce",description:"Conversion-focused storefronts engineered for catalog depth, operational workflows, and growth.",features:["Custom storefront & checkout","Product and inventory workflows","Performance and technical SEO"],price:"Let's scope it",icon:"ShoppingBag",ctaLink:"#contact"},
+ {id:"saas",title:"Full-Stack Web Apps & SaaS",description:"Reliable web applications shaped around your business logic and users.",features:["Architecture & API design","Authentication and roles","Dashboards and integrations"],price:"Let's scope it",icon:"Layers3",ctaLink:"#contact"},
+ {id:"admin",title:"Admin Dashboards & APIs",description:"Operational control panels and dependable backend services.",features:["Custom CRUD systems","Analytics and reporting","Secure API integrations"],price:"Let's scope it",icon:"PanelTop",ctaLink:"#contact"},
+ {id:"bilingual",title:"Bilingual RTL/LTR Engineering",description:"Carefully crafted Arabic and English experiences with layout direction handled throughout.",features:["Arabic / English UI","RTL-aware components","Responsive QA"],price:"Let's scope it",icon:"Languages",ctaLink:"#contact"}],
+ testimonials:[
+ {id:"hossam",name:"Hossam",company:"Enum Grow",rating:5,text:"Professional communication and a thoughtful approach to building digital experiences.",avatarUrl:"",featured:true},
+ {id:"activ-review",name:"ACTIV",company:"Sportswear",rating:5,text:"A focused e-commerce experience with clear product variants and a smooth mobile journey.",avatarUrl:"",featured:true},
+ {id:"remas-review",name:"Remas Land",company:"Corporate & Dairy",rating:5,text:"A unified digital presence that makes a broad business easier to explore.",avatarUrl:"",featured:true},
+ {id:"town-review",name:"Town Team",company:"Menswear",rating:5,text:"A bilingual shopping experience designed around real retail operations.",avatarUrl:"",featured:true}],
+ links:[{id:"linkedin",label:"LinkedIn",url:"https://linkedin.com",icon:"Linkedin"},{id:"github",label:"GitHub",url:"https://github.com",icon:"Github"},{id:"fiverr",label:"Fiverr",url:"https://fiverr.com",icon:"BriefcaseBusiness"},{id:"whatsapp",label:"WhatsApp",url:"https://wa.me/201041961879",icon:"MessageCircle"}]
+};
